@@ -14,7 +14,7 @@ integrante1.registrarGasto("4","camisas", "1500", "TDC", "ropa")
 integrantes.push(integrante1);
 integrantes.push(integrante2);
 const nuevoGrupo = new Grupo("grupo1", "grupo1", integrantes);
-admin.createGrupo(nuevoGrupo);
+admin.crearGrupo(nuevoGrupo);
 
 console.log(admin.grupos)
 const integrante3 = new Integrante("integrante3", "David G", "001C");

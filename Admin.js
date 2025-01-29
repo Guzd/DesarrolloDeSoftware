@@ -44,7 +44,7 @@ class Admin extends UsuarioBase {
         return this.grupos[index];
     }
     
-    createGrupo(grupo) {
+    crearGrupo(grupo) {
         if (grupo instanceof Grupo) {
             this.grupos = grupo;
             return;
@@ -132,7 +132,7 @@ export default Admin;
 // integrantes.push(integrante1);
 // integrantes.push(integrante2);
 // const nuevoGrupo = new Grupo("grupo1", "grupo1", integrantes);
-// admin.createGrupo(nuevoGrupo);
+// admin.crearGrupo(nuevoGrupo);
 // console.log(admin.grupos)
 // const integrante3 = new Integrante("integrante3", "David G", "001C");
 // admin.addIntegrante("grupo1", integrante3)
